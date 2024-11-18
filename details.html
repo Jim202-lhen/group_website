@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu Mentor Hub - Online Classes</title>
+    <link rel="stylesheet" href="assets/css/details.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+        <div class="logo">
+        <img src="assets/Photos/Logo.jfif" alt="Edu Mentor Hub Logo">
+        <h1>Edu Mentor Hub</h1>
+        <p>Tutoring Services</p>
+      </div>
+
+      <div class="edu-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="book-class-html.html">Book a Class</a></li>
+          <li><a href="service.html">Our Services</a></li>
+          <li><a href="onlineP.html">Online Practice</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <main>
+    <!-- Welcome Section -->
+    <section style="padding: 20px; text-align: center;">
+      <h1>Welcome to Our Online Classes</h1>
+      <p>Explore our courses for Reading, Writing, Math, and Science.</p>
+    </section>
+
+    <!-- Course Overview -->
+    <section class="container">
+      <h2>Course Overview</h2>
+      <p>
+        This interactive online class is designed to build and enhance essential skills in 
+        reading, writing, math, and science. Perfect for students who want to improve their 
+        academic performance and understanding of core concepts.
+      </p>
+    </section>
+
+    <!-- Subjects Covered -->
+    <section class="container">
+      <h2>Subjects Covered</h2>
+      <article>
+        <h3>Reading:</h3>
+        <ul>
+          <li>Comprehension skills</li>
+          <li>Vocabulary building</li>
+          <li>Analyzing stories and texts</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Writing:</h3>
+        <ul>
+          <li>Grammar and sentence structure</li>
+          <li>Creative writing and essays</li>
+          <li>Writing reports and summaries</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Math:</h3>
+        <ul>
+          <li>Basic arithmetic (addition, subtraction, multiplication, division)</li>
+          <li>Problem-solving and logical reasoning</li>
+          <li>Geometry, fractions, and percentages</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Science:</h3>
+        <ul>
+          <li>Basic biology, chemistry, and physics concepts</li>
+          <li>Hands-on experiments (virtual demonstrations)</li>
+          <li>Environmental science and space exploration</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Schedule & Duration -->
+    <section class="container">
+      <h2>Schedule & Duration</h2>
+      <p>
+        <strong>Duration:</strong> 12 weeks <br>
+        <strong>Sessions:</strong> 3 days a week, 1 hour per session <br>
+        <strong>Schedule:</strong> Monday, Wednesday, Friday – 4:00 PM to 5:00 PM
+      </p>
+    </section>
+
+    <!-- Pricing -->
+    <section class="container">
+      <h2>Pricing</h2>
+      <p>
+        <strong>Course Fee:</strong> $150 for the full course <br>
+        <strong>Early Bird Discount:</strong> Enroll before [date] and get 10% off!
+      </p>
+    </section>
+
+    <!-- Meet Your Instructor -->
+    <section class="container">
+      <h2>Meet Your Instructor</h2>
+      <p>
+        Ms. Sonam Phuntsho, an experienced educator with over 5 years of teaching expertise, 
+        is passionate about making learning engaging and effective for every student.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container contact">
+      <p>For more information or to enroll, <a href="mailto:info@onlineclass.com">contact us</a> today!</p>
+      <button class="button" onclick="thankYouMessage()">Enroll Now</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="divider"></div>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <div>
+            <h3>Call</h3> 
+            <p>77773677</p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p>07230051@gmail.com</p>
+        </div>
+        </div>
+        <div class="follow-info">
+            <h3>Follow Us</h3>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><img src="assets/Photos/FB.jfif" alt="facebook" width="20px"></a> <!-- Facebook icon -->
+                <a href="#" aria-label="Twitter"><img src="assets/Photos/instagram.jpeg" alt="instagram"width="20px"></a> <!-- Twitter icon -->
+                <a href="#" aria-label="YouTube"><img src="assets/Photos/twitter.png" alt="Twiter"width="20px"></a> <!-- YouTube icon -->
+                <a href="#" aria-label="tiktok"><img src="assets/Photos/tiktok.png" alt="tiktok"width="20px"></a> <!-- tiktok icon -->
+            </div>
+        </div>
+    </div>
+</div>    
+</body>
+  <!-- JavaScript for Thank You Pop-up -->
+  <script>
+    function thankYouMessage() {
+      alert("Thank you for your interest! Your enrollment has been received.");
+    }
+
+    function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+  }
+  </script>
+</html>
